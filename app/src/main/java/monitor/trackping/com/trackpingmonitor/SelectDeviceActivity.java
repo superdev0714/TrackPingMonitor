@@ -154,7 +154,7 @@ public class SelectDeviceActivity extends AppCompatActivity {
             convertView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(SelectDeviceActivity.this, DetailActivity.class);
+                    Intent intent = new Intent(SelectDeviceActivity.this, MapsActivity.class);
                     intent.putExtra("deviceId", currentItem.get("deviceId"));
                     startActivity(intent);
                 }
